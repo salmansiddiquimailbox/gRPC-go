@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Request{
+    string Msg=1;
+}
+
+message Response{
+    string Msg=2;
+}
+
+service Greeter {
+    rpc GreetManyTimes (Request) returns (stream Response){};
+}
