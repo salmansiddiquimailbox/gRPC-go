@@ -2,9 +2,9 @@ package main
 
 import (
 	"context"
+	pb "github.com/salmansiddiquimailbox/gRPC-go.git/server-streaming/exampleProto"
 	"io"
 	"log"
-	pb "serverstreamingrpc"
 
 	"google.golang.org/grpc"
 )

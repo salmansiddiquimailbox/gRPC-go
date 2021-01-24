@@ -1,8 +1,8 @@
 package main
 
 import (
-	pb "clientstreaming"
 	"context"
+	pb "github.com/salmansiddiquimailbox/gRPC-go.git/client-streaming/exampleProto"
 	"log"
 	"strconv"
 	"time"

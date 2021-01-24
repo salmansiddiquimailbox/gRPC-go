@@ -1,7 +1,7 @@
 package main
 
 import (
-	pb "grpcexample"
+	pb "github.com/salmansiddiquimailbox/gRPC-go.git/unary/exampleProto"
 	"log"
 	"time"
 

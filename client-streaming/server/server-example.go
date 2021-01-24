@@ -1,7 +1,7 @@
 package main
 
 import (
-	pb "clientstreaming"
+	pb "github.com/salmansiddiquimailbox/gRPC-go.git/client-streaming/exampleProto"
 	"io"
 	"log"
 	"net"
